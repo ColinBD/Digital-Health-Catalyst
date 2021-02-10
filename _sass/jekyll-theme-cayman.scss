@@ -378,14 +378,19 @@ a {
 }
 
 .logo_container {
-  width: 30%;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
 }
 
-.logo_container img {
+.mobilised_logo img {
   max-height:100%;
   max-width: 100%;
+}
+
+ideafast_logo img {
+  max-height:70%;
+  max-width: 70%;
 }
 
 .footer_column {
