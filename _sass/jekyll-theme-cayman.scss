@@ -113,10 +113,45 @@ a {
 
   @include large {
     padding: 5rem 6rem;
+
+    .header_left {
+      float: left;
+      width: 30%;
+      text-align: center;
+    }
+    
+    .header_left img {
+      max-height:80%;
+      max-width: 80%;
+      width: 300px;
+    }
+    
+    .header_right {
+      float: left;
+      width: 70%;
+      color: black;
+    }
   }
 
   @include medium {
     padding: 3rem 4rem;
+    .header_left {
+      float: left;
+      width: 100%;
+      text-align: center;
+    }
+    
+    .header_left img {
+      max-height:80%;
+      max-width: 100%;
+      width: 150px;
+    }
+    
+    .header_right {
+      float: left;
+      width: 100%;
+      color: black;
+    }
   }
 
   @include small {
@@ -131,23 +166,7 @@ a {
   clear: both;
 }
 
-.header_left {
-  float: left;
-  width: 30%;
-  text-align: center;
-}
 
-.header_left img {
-  max-height:80%;
-  max-width: 80%;
-  width: 300px;
-}
-
-.header_right {
-  float: left;
-  width: 70%;
-  color: black;
-}
 
 .project-name {
   margin-top: 0;
