@@ -124,8 +124,14 @@ a {
   }
 }
 
+/* Clear floats after the columns */
+.page-header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .header_left {
-  border-color: red;
   float: left;
   width: 40%;
   text-align: center;
@@ -137,7 +143,6 @@ a {
 }
 
 .header_right {
-  border-color: blue;
   float: left;
   width: 60%;
   color: black;
